@@ -1,0 +1,41 @@
+body {
+    
+    background-color: #a6b3be;
+}
+
+
+
+.border {
+    border: 9px #ffffff solid;
+    background-color: #c1c4ac;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.block1, .block2, .block3 {
+    width: 300px;
+    height: 300px;
+}
+
+.block1 {
+    background-color: #bf1414;
+    position: relative
+    z-index: 1;
+}
+
+.block2 {
+    background-color: #3d9f1a;
+    position: relative;
+    z-index: 2;
+    top: -150px;
+    left: 170px;
+}
+
+.block3 {
+    background-color: #2370af;
+    position: relative;
+    z-index: 1;
+    top: -300px;
+    left: 300px;
+}
